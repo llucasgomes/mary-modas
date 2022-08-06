@@ -1,0 +1,78 @@
+.produtos {
+  /* width: 100%; */
+  height: 100%;
+  background-color: #ecbac4;
+  background-size: cover;
+  padding: 5% 10%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.produtos h1 {
+  text-align: center;
+  font-size: 6.5rem;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  margin-bottom: 2rem;
+}
+
+.produtos p {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 2rem;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+}
+
+/* GRID DE ITENS */
+.container_itens {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: repeat(auto, 250px);
+  grid-gap: 1rem;
+  width: 100%;
+  justify-items: center;
+}
+
+.box_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 32rem;
+  height: 35rem;
+  align-items: center;
+  margin-top: 3rem;
+  background-color: white;
+}
+
+.imagem {
+  width: 100%;
+  height: 55%;
+
+  transition: 0.5s ease-in-out;
+  object-fit: cover;
+  object-position: center top;
+  top: 0;
+}
+/*
+  .container-itens .imagem:hover {
+    transition: 0.5s ease-in-out;
+    transform: scale(1.2);
+  
+  } */
+
+.box_item h3 {
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  padding: 0 1.6rem;
+}
+
+.box_item p {
+  font-size: 1.7rem;
+  font-family: "Roboto", sans-serif;
+  padding: 0 1rem;
+}

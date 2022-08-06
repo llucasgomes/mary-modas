@@ -1,0 +1,22 @@
+.banner_contato {
+  width: 100%;
+  height: calc(100vh - 5rem);
+  background-size: cover;
+  padding: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(rgba(187, 93, 93, 0.26), rgb(92, 91, 91)),
+    url(../../assets/images/manaus.jpg) center center no-repeat;
+  background-size: cover;
+}
+.banner_contato div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.mapa h2 {
+  font-size: 2rem;
+  color: white;
+}

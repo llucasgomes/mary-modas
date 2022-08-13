@@ -2,7 +2,7 @@
   "name": "portfolio-1",
   "private": true,
   "version": "0.0.0",
-  "homepage": "MARY-MODA/",
+  "homepage": "mary-modas/",
   "type": "module",
   "scripts": {
     "dev": "vite",

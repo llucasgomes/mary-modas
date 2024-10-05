@@ -10,14 +10,15 @@ export const products = [
 		title: 'Básico',
 		description: `Peças para o dia a dia com design simples mas o conforto e qualidade
     que só a Vi tem`,
-		image: 'https://loungerieqa.vteximg.com.br/arquivos/ids/402121-420-560/10050049_284_2-SUTIA-TQC-ESSENTIALS-MF.jpg'
+		image:
+			'https://liz.vteximg.com.br/arquivos/ids/188469-500-563/sutia-lift-57812-semibody-bermuda-73381-sepia-frente-1.jpg'
 	},
 	{
 		title: 'Maternity',
 		description: `Peças feitas em algodão para o maior conforto da mãe e o bebê
     durante e após a gravidez.`,
 		image:
-			'https://loungerieqa.vteximg.com.br/arquivos/ids/309955-420-560/20030355_161_2-CALCINHA-BIQUINI-COM-RENDA-MATERNITY.jpg'
+			'https://liz.vteximg.com.br/arquivos/ids/188469-500-563/sutia-lift-57812-semibody-bermuda-73381-sepia-frente-1.jpg'
 	},
 	{
 		title: 'Noite',
@@ -38,6 +39,6 @@ export const products = [
 		description: `Peças ideias para o uso pós intervenções, auxiliando em sua
         recuperação .`,
 		image:
-			'https://hopelingerie.vtexassets.com/arquivos/ids/186055-320-424?v=637601609418570000&width=320&height=424&aspect=true'
+			'https://liz.vteximg.com.br/arquivos/ids/188469-500-563/sutia-lift-57812-semibody-bermuda-73381-sepia-frente-1.jpg'
 	}
 ]

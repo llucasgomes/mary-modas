@@ -1,73 +1,73 @@
 .comentarios {
-  width: 100%;
-  height: 100%;
-  background-color: #ffffff;
-  padding: 1% 10%;
-  display: flex;
-  flex-direction: column;
+	width: 100%;
+	height: 100%;
+	background-color: #ffffff;
+	padding: 1% 10%;
+	display: flex;
+	flex-direction: column;
 }
 
 .comentarios h1 {
-  text-align: center;
-  font-size: 6.5rem;
-  width: 100%;
-  font-family: "Roboto", sans-serif;
-  color: black;
-  margin-bottom: 2rem;
+	text-align: center;
+	font-size: 6.5rem;
+	width: 100%;
+	font-family: "Roboto", sans-serif;
+	color: black;
+	margin-bottom: 2rem;
 }
 
 .comentarios p {
-  text-align: center;
-  margin-top: 1rem;
-  font-size: 2rem;
-  width: 100%;
-  font-family: "Open Sans", sans-serif;
-  color: black;
+	text-align: center;
+	margin-top: 1rem;
+	font-size: 2rem;
+	width: 100%;
+	font-family: "Open Sans", sans-serif;
+	color: black;
 }
 
 .container_comentarios {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-template-rows: repeat(auto, 200px);
-  grid-gap: 2rem;
-  width: 100%;
-  padding: 1rem;
-  justify-items: center;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-rows: repeat(auto, 200px);
+	grid-gap: 2rem;
+	width: 100%;
+	padding: 1rem;
+	justify-items: center;
 }
 
 .box_comentario {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 32rem;
-  height: 35rem;
-  align-items: center;
-  margin-top: 3rem;
-  justify-content: center;
-  padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 32rem;
+	height: 35rem;
+	align-items: center;
+	margin-top: 3rem;
+	justify-content: center;
+	padding: 10px;
 }
 .imagem_comentario {
-  width: 15rem;
-  height: 15rem;
-  border-radius: 50%;
-  /* margin-bottom: 5%; */
-  object-fit: cover;
+	width: 15rem;
+	height: 15rem;
+	border-radius: 50%;
+	/* margin-bottom: 5%; */
+	object-fit: cover;
 }
 .box_comentario h3 {
-  margin-top: 2rem;
-  font-size: 1.6rem;
-  font-family: "Source Sans Pro", sans-serif;
-  text-align: center;
+	margin-top: 2rem;
+	font-size: 1.6rem;
+	font-family: "Source Sans Pro", sans-serif;
+	text-align: center;
 }
 .box_comentario h3 span {
-  font-size: 3rem;
+	font-size: 3rem;
 }
 
 .box_comentario p {
-  width: 100%;
-  font-size: 1.5rem;
+	width: 100%;
+	font-size: 1.5rem;
 
-  padding: 0 1rem;
-  text-align: center;
-  margin-top: 2rem;
+	padding: 0 1rem;
+	text-align: center;
+	margin-top: 2rem;
 }

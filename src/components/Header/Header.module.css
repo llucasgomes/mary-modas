@@ -1,31 +1,31 @@
 .header {
-  display: flex;
-  width: 100%;
-  height: 76px;
-  /* From https://css.glass */
-  background: rgba(255, 255, 255, 0.14);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  position: fixed;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-size: 2rem;
+	display: flex;
+	width: 100%;
+	height: 76px;
+	/* From https://css.glass */
+	background: rgba(255, 255, 255, 0.14);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	position: fixed;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 2rem;
 }
 .header h2 {
-  font-size: 3rem;
+	font-size: 3rem;
 }
 .header ul {
-  display: flex;
-  gap: 2rem;
+	display: flex;
+	gap: 2rem;
 }
 .header ul li {
-  font-size: 2.5rem;
-  color: black;
-  cursor: pointer;
+	font-size: 2.5rem;
+	color: black;
+	cursor: pointer;
 }
 .header ul li:hover {
-  color: white;
+	color: white;
 }
